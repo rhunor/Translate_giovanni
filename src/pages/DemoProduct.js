@@ -8,7 +8,7 @@ import Notiflix from 'notiflix';
 
 const DemoProduct = (props) => {
 
-    useDocTitle('vonzy | TransLang - Demo our products')
+    useDocTitle('vonzy | TransLang - our products')
 
     const [firstName, setFirstName] = useState('')
     const [lastName, setLastName] = useState('')
@@ -120,7 +120,7 @@ const DemoProduct = (props) => {
                     <form onSubmit={sendEmail} id="demoProductForm">
                         <div className="w-full bg-white p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
                             <div className="flex">
-                                <h1 className="font-bold text-center lg:text-left text-blue-500 uppercase text-4xl">Demo our products</h1>
+                                <h1 className="font-bold text-center lg:text-left text-blue-500 uppercase text-4xl">Our products</h1>
                             </div>
                             <div className="flex items-center my-4">
                                 <input 
